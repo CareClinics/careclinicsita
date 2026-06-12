@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CARE CLINICS — Il sistema che la tua segretaria non può fare</title>
+<title>DR. PINOCCHIO — Il sistema che la tua segretaria non può fare</title>
 <meta name="description" content="Il sistema che recupera €42.000 l'anno alle cliniche italiane. 5 posti fondatori al -74%. Chiude il 30 giugno.">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
 <style>
@@ -634,26 +634,29 @@ h1 .strike::after, h2 .strike::after {
 .qual-col h3 em { color: var(--gold); font-style: normal; }
 
 .qual-item {
-  display: grid;
-  grid-template-columns: 24px 1fr;
-  gap: 12px;
-  padding: 12px 0;
-  font-size: 16px;
+  position: relative;
+  padding: 18px 0 18px 38px;
+  font-size: 17px;
   color: var(--white);
-  align-items: start;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.6;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
 }
+
+.qual-item:last-child { border-bottom: none; }
 
 .qual-item strong { color: var(--gold); font-weight: 800; }
 .qual-col.no .qual-item strong { color: var(--white); }
 
 .qual-item::before {
   content: '✓';
+  position: absolute;
+  left: 0;
+  top: 16px;
   color: var(--green);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .qual-col.no .qual-item::before {
@@ -837,8 +840,14 @@ h1 .strike::after, h2 .strike::after {
   .bonus-stack { font-size: 17px; padding: 18px; }
   .bonus-stack .big { font-size: 26px; }
 
-  .qual-col { padding: 24px 20px; }
-  .qual-item { font-size: 15px; }
+  .qual-col { padding: 28px 22px; }
+  .qual-col h3 { font-size: 22px !important; margin-bottom: 18px; }
+  .qual-item {
+    font-size: 16px;
+    padding: 16px 0 16px 34px;
+    line-height: 1.55;
+  }
+  .qual-item::before { font-size: 21px; top: 14px; }
 
   .story-quote { font-size: 21px; padding: 22px; }
 
@@ -868,7 +877,7 @@ h1 .strike::after, h2 .strike::after {
 
 <!-- ═══════════════ HERO ═══════════════ -->
 <section class="hero">
-  <div class="brand">CARE CLINICS · ITALIA</div>
+  <div class="brand">DR. PINOCCHIO · ITALIA</div>
 
   <h1>SEI UN DOTTORE<br>CHE BRUCIA<br><em>€42.000 L'ANNO</em>.<br>E NON LO SAI.</h1>
 
@@ -879,7 +888,7 @@ h1 .strike::after, h2 .strike::after {
   <a href="https://wa.me/message/YIPMHX4NDWFJM1" target="_blank" class="cta big">VOGLIO SAPERE COME →</a>
   <div class="cta-note"><span class="red-dot"></span>SCRIVIMI SU WHATSAPP · RISPOSTA ENTRO 2H</div>
 
-  <img src="images/hero-founder.jpg" alt="Matteo · Fondatore CARE CLINICS" class="hero-img">
+  <img src="images/hero-founder.jpg" alt="Matteo · Fondatore DR. PINOCCHIO" class="hero-img">
 </section>
 
 <!-- ═══════════════ LE 6 BALLE ═══════════════ -->
@@ -977,7 +986,7 @@ h1 .strike::after, h2 .strike::after {
 
 <!-- ═══════════════ COSA OTTIENI ═══════════════ -->
 <section>
-  <div class="tag">CARE CLINICS · IL SISTEMA</div>
+  <div class="tag">DR. PINOCCHIO · IL SISTEMA</div>
   <h2>COSA OTTIENI<br><em>IN 60 GIORNI</em>.</h2>
   <p>Non un software. Non un'agenzia. Un sistema operativo per la tua clinica che lavora 24/7.</p>
 
@@ -1184,18 +1193,30 @@ h1 .strike::after, h2 .strike::after {
 <!-- ═══════════════ STORIA FONDATORE ═══════════════ -->
 <section>
   <div class="tag">CHI C'È DIETRO</div>
-  <h2>SONO MATTEO.<br><em>NON SONO</em> UN'AGENZIA.</h2>
+  <h2>SONO MATTEO.<br><em>ODIO</em> I TUOI ABBONAMENTI.</h2>
 
-  <p style="font-size: 19px; color: var(--white); font-weight: 500; margin-bottom: 24px;">Quinto anno di Medicina. Costruisco sistemi automatizzati per cliniche specialistiche.</p>
+  <p style="font-size: 19px; color: var(--white); font-weight: 500; margin-bottom: 28px;">Mi fa incazzare vedere medici bravi pagare <strong>7 abbonamenti diversi</strong> che non risolvono un cazzo: gestionale da €400/mese, tool recensioni, agenzia ads, dashboard, CRM. Sommati: <strong>€1.500-3.000 al mese</strong>. Risultato: zero pazienti in più.</p>
 
-  <p>Ho visto da dentro <strong>i due buchi che ti svuotano la cassa</strong>: cancellazioni che spariscono nel vuoto e recensioni che non arrivano. Ho visto colleghi medici brillanti rovinare studi che valevano milioni perché "il marketing non è per dottori".</p>
+  <p style="font-size: 19px; color: var(--white); font-weight: 500; margin-bottom: 28px;">Per questo costruisco <strong>DR. PINOCCHIO</strong> da solo. <strong>UN sistema. UN canone.</strong> Niente PDF da 47 slide, niente call center, niente "ti ricontatto in 48h". WhatsApp diretto col fondatore. <strong>5 dottori per trimestre.</strong> Mai uno in più.</p>
 
-  <p>Ho costruito <strong>CARE CLINICS</strong> per i dottori italiani che vogliono <strong>dominare la propria zona</strong> senza diventare influencer su TikTok. Sistema. Numeri. Risultati misurabili.</p>
+  <p style="font-size: 19px; color: var(--white); font-weight: 500; margin-bottom: 24px;">Probabilmente <strong>non ti piacerò</strong>.</p>
 
-  <p>Non vendo a chiunque. <strong>5 posti questo trimestre.</strong> Onboarding diretto con me, non con un commerciale.</p>
+  <p style="margin-bottom: 8px;">Ti dico <strong class="red">NO</strong> se cerchi miracoli.</p>
+  <p style="margin-bottom: 8px;">Ti dico <strong class="red">NO</strong> se vuoi un commerciale che ti chiama "dottore" col copione.</p>
+  <p style="margin-bottom: 28px;">Ti dico <strong class="red">NO</strong> se la tua agenzia attuale funziona già.</p>
+
+  <p style="margin-bottom: 12px;">Ti dico <strong style="color: var(--green);">SÌ</strong> se sei stufo di:</p>
+  <p style="margin-bottom: 8px;">→ Vedere il fatturato scendere mentre lavori <strong>12 ore al giorno</strong>.</p>
+  <p style="margin-bottom: 8px;">→ Pagare <strong>€3.000/mese</strong> a chi non ti porta un paziente in più.</p>
+  <p style="margin-bottom: 28px;">→ Sentirti dire dalla segretaria che "le cancellazioni sono fisiologiche".</p>
+
+  <p style="margin-bottom: 24px;"><strong>Niente team.</strong> Niente call center. Niente "ti ricontatto entro 48h".</p>
+  <p style="margin-bottom: 24px;">Rispondo io. Lavoro io. Se non funziona, spengo io.</p>
 
   <div class="story-quote">
-    Non sono un guru del marketing. Sono un medico che ha smesso di accettare che "le cancellazioni sono normali". Se la pensi come me, mi scrivi.
+    Le agenzie vendono fumo a €3.000 al mese.<br>
+    Io porto numeri a metà prezzo.<br>
+    Se non tornano in 60 giorni → spengo, e amici come prima.
   </div>
 </section>
 
@@ -1229,7 +1250,7 @@ h1 .strike::after, h2 .strike::after {
 
 <!-- ═══════════════ FOOTER ═══════════════ -->
 <div class="footer">
-  <span class="brand">CARE CLINICS</span><br>
+  <span class="brand">DR. PINOCCHIO</span><br>
   Sistemi automatizzati per cliniche italiane · 2026<br>
   <span style="opacity:0.6;">Diritti riservati</span>
 </div>
